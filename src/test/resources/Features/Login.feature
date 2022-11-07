@@ -1,9 +1,5 @@
+
 Feature: Fidexio Login feature
-
-
-
-
-
 
 
   Scenario Outline: Positive Login Scenarios
