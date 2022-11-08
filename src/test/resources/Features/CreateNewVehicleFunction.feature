@@ -1,4 +1,4 @@
-@wip
+
 Feature: As a POSMANAGER, I should be able to create a new Vehicle.
 
 
