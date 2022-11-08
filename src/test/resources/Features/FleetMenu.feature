@@ -10,24 +10,20 @@ Feature: As a POSMANAGER, I should be able to see menus under "Fleet" module.
   Scenario: Verify that USER can see these menus on the left side under the Fleet Module.
     When posmanager clicks the More module
     And posmanager clicks Fleet button
-  Then user sees menu
-#    Then posmanager sees "<menuText>"
-#    Examples:
-#    |menuText|
-#      | Vehicles               |
-#      | Vehicles               |
-#      | Vehicles Odometer      |
-#      | Vehicle Costs          |
-#      | Vehicles Contracts     |
-#      | Vehicles Fuel Logs     |
-#      | Vehicles Services Logs |
-#      | Reporting              |
-#      | Costs                  |
-#      | Indicative Costs       |
-#      | Configuration          |
-#      | Vehicle Model          |
-#      | Model make of Vehicle  |
-#      | Service Types          |
-#      | Contract Types         |
-#      | Vehicle status         |
-#      | Vehicle Tags           |
+    Then user is able to see Vehicles
+    Then user should see Vehicles
+    Then user is able to see Vehicles Odometer
+    Then user is able to see Vehicle Costs
+    Then user is able to see Vehicles Contracts
+    Then user is able to see  Vehicles Fuel Logs
+    Then user is able to see Vehicles Services Logs
+    Then user is able to see Reporting
+    Then user is able to see Costs
+    Then user is able to see  Indicative Costs
+    Then user is able to see Configuration
+    Then user is able to see Vehicle Model
+    Then user is able to see Model make of Vehicle
+    Then user is able to see Service Types
+    Then user is able to see Contract Types
+    Then user is able to see Vehicle status
+    Then user is able to see Vehicle Tags
