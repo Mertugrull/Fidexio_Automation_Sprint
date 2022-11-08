@@ -1,5 +1,10 @@
-
 Feature: Fidexio Login feature
+
+
+
+
+
+
 
   Scenario Outline: Positive Login Scenarios
     Given user is on the login page of fidexio page

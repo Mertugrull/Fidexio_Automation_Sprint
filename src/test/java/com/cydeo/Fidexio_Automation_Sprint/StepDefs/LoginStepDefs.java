@@ -43,8 +43,6 @@ public class LoginStepDefs {
     @Then("user sees {string} in the title")
     public void user_sees_in_the_title(String expectedUrl) {
 
-        System.out.println(Driver.getDriver().getTitle());
-
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
         wait.until(ExpectedConditions.urlContains(expectedUrl));
         Assert.assertTrue(Driver.getDriver().getCurrentUrl().contains(expectedUrl));
