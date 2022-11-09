@@ -49,4 +49,18 @@ public class CreateNewVehicleFunctionPage {
     @FindBy (xpath = "(//div[@class=\"modal-footer\"])[2]/button")
     public WebElement saveMakeModel;
 
+    @FindBy (xpath = "//a[@name=\"model_id\"]")
+    public WebElement modelMakeId;
+
+    @FindBy (xpath = "//button[@accesskey=\"a\"]")
+    public WebElement editButton;
+
+    @FindBy(xpath = "//span[.=\"Create\"]/..")
+    public WebElement createMakeButton;
+
+    @FindBy(xpath = "//input[@placeholder=\"Search...\"]")
+    public WebElement searchBox;
+
+    @FindBy (xpath = "//span[.=\"toto\"]")
+    public WebElement numberPlateVerification;
 }
