@@ -11,3 +11,4 @@ Feature: As a POSMANAGER, I should be able to create a new Vehicle Contract.
     When user clicks on the MORE module
     Then user clicks on the FLEET option
     Then clicks on the Vehicles Contracts option
+      And users click the Create button
