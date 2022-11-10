@@ -1,11 +1,11 @@
-@wip
+@FIDE-1505
 Feature: As a POSMANAGER, I should be able to create a new Vehicle.
 
 
   Background:  User logged in with valid credentials
     Given user is logged in with username "posmanager15@info.com" and password "posmanager"
 
-
+@FIDE-1501
   Scenario: Verify that USER can create a new VEHICLE with at least filling Model and License Plate.
     When user clicks on the MORE button
     And user clicks on the FLEET option
@@ -20,7 +20,7 @@ Feature: As a POSMANAGER, I should be able to create a new Vehicle.
     And user clicks on the SAVE button to create only with MODEL and LICENSE PLATE
     And user sees the new vehicle created message is displayed
 
-
+  @FIDE-1502
   Scenario Outline: Verify that USER can enter a Make and Model with creating if it doesn't exist.
 
     When user clicks on the MORE button
@@ -35,7 +35,7 @@ Feature: As a POSMANAGER, I should be able to create a new Vehicle.
       | model | make   |
       | ziya  | arslan |
 
-
+  @FIDE-1503
   Scenario Outline: After creating a new vehicle, verify that the USER can see the page of the vehicle and Edit button on the page.
 
     When user clicks on the MORE button
@@ -57,7 +57,7 @@ Feature: As a POSMANAGER, I should be able to create a new Vehicle.
       | toto         |
 
 
-
+  @FIDE-1504
   Scenario Outline: After creating a new vehicle, verify that the USER can see the vehicle in the vehicle page list.
     When user clicks on the MORE button
     And user clicks on the FLEET option
