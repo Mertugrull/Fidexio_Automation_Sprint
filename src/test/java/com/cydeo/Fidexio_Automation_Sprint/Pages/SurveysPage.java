@@ -49,7 +49,7 @@ public class SurveysPage {
     @FindBy (css = "input.o_searchview_input")
     public WebElement SearchBox;
 
-    @FindBy (xpath = "(//*[text()='dasda'])[2]")//(css = "div.o_kanban_record_top")
+    @FindBy (xpath = "(//*[text()='dasda'])[2]")
     public WebElement PostSearchSurvey;
 
 
@@ -59,21 +59,21 @@ public class SurveysPage {
     @FindBy (xpath = "//input[@class='o_field_char o_field_widget o_input o_required_modifier']")
     public WebElement SurveyTitle;
 
-    @FindBy (linkText = "Add an item")  //td[@class='o_field_x2many_list_row_add']
+    @FindBy (linkText = "Add an item")
     public WebElement AddItemButton;
 
-    @FindBy   (xpath = "(//*[text()='Add an item'])[2]")//(xpath = "(//td[@class='o_field_x2many_list_row_add'])[2]") //(linkText = "Add an item")
+    @FindBy   (xpath = "(//*[text()='Add an item'])[2]")
     public WebElement AddItemButton2;
 
 
-    @FindBy (xpath = "(//input[@name='title'])[2]")  //input[@placeholder='Page Title']
+    @FindBy (xpath = "(//input[@name='title'])[2]")
     public WebElement PageTitle;
 
 
     @FindBy (xpath = "//input[@placeholder='Question Name']")
     public WebElement QuestionName;
 
-    @FindBy  (xpath = "(//*[text()='Save  & Close'])[2]")//(xpath = "//*[@id=\"modal_85\"]/div/div/div[3]/button[1]")
+    @FindBy  (xpath = "(//*[text()='Save  & Close'])[2]")
     public WebElement SaveAndCloseButton;
 
     @FindBy (xpath = "//*[text()='Save  & Close']")

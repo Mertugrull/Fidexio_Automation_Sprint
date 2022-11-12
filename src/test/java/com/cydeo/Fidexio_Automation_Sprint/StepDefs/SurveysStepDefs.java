@@ -23,7 +23,6 @@ public class SurveysStepDefs {
         BrowserUtility.sleep(4);
         Assert.assertEquals( "Surveys - Odoo",Driver.getDriver().getTitle());
 
-       // Assert.assertEquals("Surveys",surveysPage.SurveyText.getText());
 
     }
     @Then("users click the answers button on the left of the page")
