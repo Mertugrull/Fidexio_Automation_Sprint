@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 public class VehContract {
 
-   // VehContract vehContract=new VehContract();
+ //VehContract vehContract=new VehContract();
     HomePage homePage=new HomePage();
 
 

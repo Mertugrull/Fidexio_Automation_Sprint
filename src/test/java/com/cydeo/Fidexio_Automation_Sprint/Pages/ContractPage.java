@@ -9,6 +9,44 @@ public class ContractPage {
     public ContractPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
+
+
     @FindBy(xpath = "//a[@data-menu='146']")
     public  WebElement VehiclesContract;
+
+    @FindBy(xpath = "//button[contains(text(),\"Create\")]")
+    public  WebElement CreateButton;
+
+
+    @FindBy(xpath = "//input[@id='o_field_input_14']")
+    public  WebElement VehicleModel;
+
+
+
+    @FindBy(xpath = "//input[@id='o_field_input_15']")
+    public  WebElement VehicleType;
+
+
+    @FindBy(xpath = "//input[@id='o_field_input_16']")
+    public  WebElement ActivationCost;
+
+
+    @FindBy(xpath = "//input[@id='o_field_input_16']")
+    public  WebElement RecurringAmont;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
