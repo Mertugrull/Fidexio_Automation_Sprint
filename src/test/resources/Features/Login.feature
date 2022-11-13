@@ -1,4 +1,4 @@
-@wip
+
 Feature: Fidexio Login feature
 
 

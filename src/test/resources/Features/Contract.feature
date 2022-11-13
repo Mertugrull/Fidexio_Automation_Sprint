@@ -1,3 +1,4 @@
+@wip
 Feature: As a POSMANAGER, I should be able to create a new Vehicle Contract.
 
   Background:
@@ -8,7 +9,7 @@ Feature: As a POSMANAGER, I should be able to create a new Vehicle Contract.
 
     Scenario:  Verify that USER can create a new contract
      entering only Vehicle, Type, Activation Cost, Recurring Cost Amount
-    When user clicks on the MORE module
-    Then user clicks on the FLEET option
+    When user click on the MORE module
+    Then user click on the FLEET option
     Then clicks on the Vehicles Contracts option
       And users click the Create button
