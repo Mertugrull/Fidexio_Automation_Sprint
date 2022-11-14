@@ -17,6 +17,9 @@ public class HomePage {
     @FindBy(xpath = "//a[@data-menu=\"134\"]")
     public WebElement fleetButton;
 
+    @FindBy(css = "a[data-menu='157']")
+    public WebElement moreEmployeesButton;
+
 
 
 }
