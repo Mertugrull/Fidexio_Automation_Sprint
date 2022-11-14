@@ -21,7 +21,7 @@ public class BrowserUtility {
         try {
             Thread.sleep(second);
         } catch (InterruptedException e) {
-
+            e.printStackTrace();
         }
     }
 
