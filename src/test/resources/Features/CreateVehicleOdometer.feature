@@ -1,4 +1,4 @@
-@new
+@FIDE-1369
 Feature: As a POSMANAGER, I should be able to create a new Odometer.
 
   Background: User is on the profile page
