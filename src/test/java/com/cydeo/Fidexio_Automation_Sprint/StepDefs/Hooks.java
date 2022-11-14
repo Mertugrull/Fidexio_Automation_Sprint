@@ -8,7 +8,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
 
-    //@After
+    @After
     public void tearDown(Scenario scenario){
 
         if(scenario.isFailed()) {

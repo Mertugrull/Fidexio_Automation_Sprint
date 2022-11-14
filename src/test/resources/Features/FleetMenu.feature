@@ -1,4 +1,4 @@
-
+@FIDE-1513
 Feature: As a POSMANAGER, I should be able to see menus under "Fleet" module.
 
   Background: User is on the profile page
