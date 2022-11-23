@@ -39,6 +39,7 @@ public class LoginStepDefs {
 
         loginPage.loginButton.click();
 
+
     }
     @Then("user sees {string} in the title")
     public void user_sees_in_the_title(String expectedUrl) {
