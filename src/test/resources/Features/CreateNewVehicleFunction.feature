@@ -23,6 +23,7 @@ Feature: As a POSMANAGER, I should be able to create a new Vehicle.
   @FIDE-1502 @smoke
   Scenario Outline: Verify that USER can enter a Make and Model with creating if it doesn't exist.
 
+
     When user clicks on the MORE button
     Then user clicks on the FLEET option
     Then user clicks on the CREATE module
